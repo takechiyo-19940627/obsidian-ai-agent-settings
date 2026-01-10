@@ -1,0 +1,26 @@
+# Obsidian設定（端末ごとに異なるため除外）
+.obsidian/
+
+# 一時ファイル
+.DS_Store
+*.swp
+*.swo
+*~
+
+# 全てのマークダウンファイルとコンテンツを除外
+*.md
+*.canvas
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# 設定ファイルのみを管理（明示的に含める）
+!.cursor/
+!.cursor/**/*.md
+!.cursor/**/*.mdc
+!.claude/
+!.claude/**/*.md
+!.gitignore
+!README.md
+
