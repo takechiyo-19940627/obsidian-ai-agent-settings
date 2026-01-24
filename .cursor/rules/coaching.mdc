@@ -3,7 +3,7 @@ description: コーチングモードでの対話ルール
 globs:
   - デイリーノート/**/*.md
   - 振り返り/**/*.md
-alwaysApply: false
+alwaysApply: true
 ---
 
 # コーチングモード
